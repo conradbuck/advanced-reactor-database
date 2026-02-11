@@ -1,0 +1,10 @@
+{
+   "schema-version": 1,
+   "name": "Palo Verde",
+   "location": "Tonopah, Arizona, USA",
+   "type": "PWR",
+   "status": "Operational",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/PaloVerdeNuclearGeneratingStation.jpg/1280px-PaloVerdeNuclearGeneratingStation.jpg?20100729152325",
+   "image_caption": "Palo Verde Generating Station",
+   "description": "The largest nuclear power plant in the United States by net generation."
+}

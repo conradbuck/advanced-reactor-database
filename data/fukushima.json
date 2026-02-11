@@ -1,0 +1,10 @@
+{
+    "schema-version": 1,
+    "name": "Fukushima Daiichi",
+    "location": "Okuma, Fukushima Prefecture, Japan",
+    "type": "BWR",
+    "status": "Decommissioning",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fukushima_I_Nuclear_Power_Plant.jpg",
+    "image_caption": "Aerial view of the Fukushima site",
+    "description": "A multi-unit site currently undergoing extensive decommissioning."
+}

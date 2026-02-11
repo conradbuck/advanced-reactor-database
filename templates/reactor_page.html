@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{name}} - Reactor Database</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; color: #333; }
+        .image-box { border: 1px solid #ddd; padding: 10px; background: #f9f9f9; max-width: 500px; margin: 20px 0; border-radius: 8px; }
+        .image-box img { width: 100%; height: auto; border-radius: 4px; }
+        footer { margin-top: 40px; font-size: 0.8em; color: #888; border-top: 1px solid #eee; padding-top: 10px; }
+    </style>
+</head>
+<body>
+    <a href="../../index.html">↩︎ Back to Home</a>
+    <h1>{{name}}</h1>
+    
+    <div class="image-box">
+        <img src="{{image_url}}" alt="{{image_caption}}">
+        <p><strong>{{image_caption}}</strong><br>
+        <a href="{{image_url}}" style="font-size: 0.8em;" target="_blank">Source: {{image_domain}}</a></p>
+    </div>
+
+    <p><strong>Location:</strong> {{location}}</p>
+    <p><strong>Type:</strong> {{type}}</p>
+    <p><strong>Status:</strong> {{status}}</p>
+    <hr>
+    <p>{{description}}</p>
+
+    <footer>Last Updated: {{timestamp}}</footer>
+</body>
+</html>
